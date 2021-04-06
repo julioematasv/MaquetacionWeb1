@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 
 /* Fuentes */
 @font-face {
@@ -30,7 +40,7 @@ body {
 #header {
   min-width: 1024;
   width: 100%;
-  height: 250px;
+  height: 25rem;
   margin: 0 auto;
 }
 
@@ -39,24 +49,24 @@ body {
 }
 
 #header #logotipo {
-  width: 770px;
+  width: 77rem;
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 2rem;
 }
 
 #logotipo img {
   display: block;
   text-align: center;
   margin: 0 auto;
-  width: 140px;
+  width: 14rem;
 }
 
 #header h1 {
   text-align: center;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 4rem;
   font-family: "nevis";
-  letter-spacing: 4px;
+  letter-spacing: 0.4rem;
   margin-top: 10px;
   color: #70b231;
   text-shadow: 0px 2px 2px #333333;
@@ -77,10 +87,10 @@ body {
 #nav {
   background-color: #333333;
   color: #ffffff;
-  height: 40px;
+  height: 4rem;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
   box-shadow: 0px 0px 2px gray;
 }
 
@@ -88,19 +98,19 @@ body {
   list-style: none;
   text-decoration: none;
   margin: 0 auto;
-  width: 1100px;
+  width: 111rem;
 }
 
 #nav > ul > li {
-  line-height: 40px;
+  line-height: 4rem;
   float: left;
   border-right: 1px solid gray;
 }
 
 #nav > ul > li a {
   display: block;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 2rem;
+  padding-right: 2rem;
   color: #ffffff;
   text-decoration: none;
 }
@@ -123,7 +133,7 @@ body {
 #nav ul > li > ul {
   display: none;
   position: absolute;
-  width: 160px;
+  width: 16rem;
   box-shadow: 0px 2px 2px gray;
   z-index: 1;
 }
@@ -135,9 +145,9 @@ body {
 #nav > ul > li:hover >ul > li {
   background-color: #f2f1f2;
   border-bottom: 1px solid #d6d6d6;
-  padding: 8px;
-  line-height: 25px;
-  font-size: 13px;
+  padding: 0.8rem;
+  line-height: 2.5rem;
+  font-size: 1.3rem;
   transition: ease 300ms;
 }
 
@@ -148,4 +158,12 @@ body {
 #nav > ul > li:hover >ul > li:hover {
   background-color: #eee;
   box-shadow: 2px 2px 4px #ccc inset;
+}
+
+/* Contnedor principal de contenido */
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  font-size: 1.6rem;
 }
